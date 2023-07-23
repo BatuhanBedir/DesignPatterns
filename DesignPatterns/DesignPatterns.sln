@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "Reposito
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "RepositoryDesignPattern\BusinessLayer\BusinessLayer.csproj", "{A57B8F0B-3A1D-4953-80B7-0FD01B7DEEFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "RepositoryDesignPattern\PresentationLayer\PresentationLayer.csproj", "{FDD5A48B-859A-46F0-A927-50124F5DD33D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PresentationLayer", "RepositoryDesignPattern\PresentationLayer\PresentationLayer.csproj", "{FDD5A48B-859A-46F0-A927-50124F5DD33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{688DB42D-207E-41D2-B4D5-32274E4C3AD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{FDD5A48B-859A-46F0-A927-50124F5DD33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDD5A48B-859A-46F0-A927-50124F5DD33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDD5A48B-859A-46F0-A927-50124F5DD33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688DB42D-207E-41D2-B4D5-32274E4C3AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688DB42D-207E-41D2-B4D5-32274E4C3AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688DB42D-207E-41D2-B4D5-32274E4C3AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688DB42D-207E-41D2-B4D5-32274E4C3AD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
