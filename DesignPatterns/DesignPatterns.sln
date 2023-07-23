@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "Repository
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PresentationLayer", "RepositoryDesignPattern\PresentationLayer\PresentationLayer.csproj", "{FDD5A48B-859A-46F0-A927-50124F5DD33D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{688DB42D-207E-41D2-B4D5-32274E4C3AD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{688DB42D-207E-41D2-B4D5-32274E4C3AD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{106EF8C1-C638-48D8-9A13-AC2EE264B1CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{106EF8C1-C638-48D8-9A13-AC2EE264B1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{3805C66D-BA33-4E12-868E-1A94B680C9F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,10 @@ Global
 		{106EF8C1-C638-48D8-9A13-AC2EE264B1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{106EF8C1-C638-48D8-9A13-AC2EE264B1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{106EF8C1-C638-48D8-9A13-AC2EE264B1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3805C66D-BA33-4E12-868E-1A94B680C9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3805C66D-BA33-4E12-868E-1A94B680C9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3805C66D-BA33-4E12-868E-1A94B680C9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3805C66D-BA33-4E12-868E-1A94B680C9F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
