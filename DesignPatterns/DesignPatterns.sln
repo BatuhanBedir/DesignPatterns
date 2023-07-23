@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PresentationLayer", "Reposi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{688DB42D-207E-41D2-B4D5-32274E4C3AD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{106EF8C1-C638-48D8-9A13-AC2EE264B1CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{688DB42D-207E-41D2-B4D5-32274E4C3AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{688DB42D-207E-41D2-B4D5-32274E4C3AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{688DB42D-207E-41D2-B4D5-32274E4C3AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106EF8C1-C638-48D8-9A13-AC2EE264B1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106EF8C1-C638-48D8-9A13-AC2EE264B1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106EF8C1-C638-48D8-9A13-AC2EE264B1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106EF8C1-C638-48D8-9A13-AC2EE264B1CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
