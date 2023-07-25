@@ -6,8 +6,6 @@ namespace Facade.Controllers;
 
 public class OrderController : Controller
 {
-    Context context = new Context();
-    OrderFacade order = new OrderFacade();
 
     [HttpGet]
     public IActionResult OrderStart()
