@@ -1,0 +1,27 @@
+﻿@model Facade.DAL.Product
+
+@{
+    ViewData["Title"] = "AddNewProduct";
+    Layout = "~/Views/Shared/_FacadeLayout.cshtml";
+}
+
+<h1>Yeni Ürün Girişi</h1>
+<div class="container">
+    <form method="post">
+        <label>Ürün Adı</label>
+        <input type="text" class="form-control" asp-for="Name" />
+        <br />
+        <label>Ürün Stok Sayısı</label>
+        <input type="text" class="form-control" asp-for="Stock" />
+        <br />
+        <label>Ürün Fiyatı</label>
+        <input type="text" class="form-control" asp-for="Price" />
+        <br />
+        <label>Ürün Kategorisi</label>
+        <input type="text" class="form-control" asp-for="Category" />
+        <br />
+        <button class="btn btn-primary">Ürünü Kaydet</button>
+    </form>
+</div>
+
+
