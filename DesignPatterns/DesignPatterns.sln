@@ -41,9 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{91E19520-2AC4-4E59-8AEB-48689F713E8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{D475DB62-B322-4A72-BB2F-BF5FF226D124}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{D475DB62-B322-4A72-BB2F-BF5FF226D124}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decoratorv2", "Decoratorv2\Decoratorv2.csproj", "{5E23DB00-2C9B-4B5B-A321-3BEFEAB449B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decoratorv2", "Decoratorv2\Decoratorv2.csproj", "{5E23DB00-2C9B-4B5B-A321-3BEFEAB449B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{D636FAC9-A74F-42BA-8A37-53F5467B1D4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +129,10 @@ Global
 		{5E23DB00-2C9B-4B5B-A321-3BEFEAB449B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E23DB00-2C9B-4B5B-A321-3BEFEAB449B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E23DB00-2C9B-4B5B-A321-3BEFEAB449B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D636FAC9-A74F-42BA-8A37-53F5467B1D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D636FAC9-A74F-42BA-8A37-53F5467B1D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D636FAC9-A74F-42BA-8A37-53F5467B1D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D636FAC9-A74F-42BA-8A37-53F5467B1D4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
